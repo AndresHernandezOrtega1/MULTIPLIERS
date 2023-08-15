@@ -1,3 +1,28 @@
+--**********************************************************************************************************************
+--Baugh-Wooley Multiplier
+--Authors:
+--  Andres Gonzalo Hernandez Ortega
+--  Braian Stiven Avella Rivera
+--Year: 2023
+--Maestría en Ingeniería
+--Universidad Pedagogica y Tecnologica de Colombia
+--
+--TOP LEVEL
+--
+--Inputs:
+--    A (required), B (required),
+--    *** Warning: Inputs should be in 8 Bit format ***
+--Outputs:
+--    X (result)
+--    *** Warning: The results will be given 16 bit format ***
+--
+--Description:
+--This algorithm multiplied two numbers of 8-bit
+--This implementation uses Baugh-Wooley Algorithm
+
+
+--**********************************************************************************************************************
+
 ----------------------------------------------------------------------------
 -------    Multiplicador de Baugh Wooley de 8 bits   		----------------
 ----------------------------------------------------------------------------
