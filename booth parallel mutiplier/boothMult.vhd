@@ -1,3 +1,28 @@
+--**********************************************************************************************************************
+--Booth Multiplier
+--Authors:
+--  Andres Gonzalo Hernandez Ortega
+--  Braian Stiven Avella Rivera
+--Year: 2023
+--Maestría en Ingeniería
+--Universidad Pedagogica y Tecnologica de Colombia
+--
+--TOP LEVEL
+--
+--Inputs:
+--    A (required), B (required),
+--    *** Warning: Inputs should be in 8 Bit format ***
+--Outputs:
+--    X (result)
+--    *** Warning: The results will be given 16 bit format ***
+--
+--Description:
+--This algorithm multiplied two numbers of 8-bit
+--This implementation uses Booth Algorithm
+
+
+--**********************************************************************************************************************
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -6,7 +31,8 @@ use IEEE.std_logic_unsigned.all;
 entity boothMult is
 	generic (	nBits : integer := 8
 				);
-	port	(	A : in	std_logic_vector(nBits-1 downto 0); 		--Multiplicando
+	port	(		
+				A : in	std_logic_vector(nBits-1 downto 0); 		--Multiplicando
 				B : in	std_logic_vector(nBits-1 downto 0);  		--Multiplicador
 				P : out std_logic_vector(2*(nBits)-1 downto 0)		--resultado
 			);
