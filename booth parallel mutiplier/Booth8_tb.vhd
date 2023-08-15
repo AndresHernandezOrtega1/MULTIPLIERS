@@ -1,4 +1,4 @@
---Testbench Baugh-Wooley 8 bits    
+--Testbench Booth 8 bits    
 --**********************************************************************************************************************
 --Baugh-Wooley Multiplier test bench
 --Authors:
@@ -19,7 +19,7 @@
 --
 --Description:
 --This algorithm multiplied two numbers of 8-bit
---This implementation uses Baugh-Wooley Algorithm
+--This implementation uses Booth Algorithm
 
 
 --**********************************************************************************************************************
