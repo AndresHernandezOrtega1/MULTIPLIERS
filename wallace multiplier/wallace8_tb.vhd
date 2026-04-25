@@ -2,10 +2,11 @@
 --Wallace tree Multiplier Test Bench
 --Authors:
 --  Andres Gonzalo Hernandez Ortega
---  Braian Stiven Avella Rivera
+
+
 --Year: 2023
---Maestría en Ingeniería
---Universidad Pedagogica y Tecnologica de Colombia
+--
+--Universidad Nacional Abierta y a Distancia
 --
 --TOP LEVEL
 --
